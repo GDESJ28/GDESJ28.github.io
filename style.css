@@ -1,5 +1,74 @@
+
+html{
+
+    background-color: #CCC;
+}
+
 h1 {
 
-    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 60, 255);
+}
 
+h2 {
+    color:red;
+    text-align: left;
+
+
+}
+
+p {
+    text-align: center;
+}
+
+a{
+
+    color: red;
+    font-weight: 700;
+}
+
+a:hover 
+{
+    color: green;
+
+}
+a:visited{
+    color:blue
+}
+table{
+    border:0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+th{
+
+    background-color: black;
+    color:white
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+tr:hover {background: grey;}
+
+#test{
+    background-color: white;
+    border-style:dashed;
+}
+
+figure{
+    border-color: red;
+    border-width: 10;
+}
+
+#photo{
+    border-color:red;
+    border-radius: 50px;
+    border-width: 30px;
+    background-color: #554f4e;
+    
 }
