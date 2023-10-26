@@ -1,15 +1,21 @@
-
-html{
-
-    background-color: #CCC;
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(200, 200, 200);
+    padding: 0;
+    
 }
+
 
 h1 {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     text-align: center;
-    color: rgb(0, 60, 255);
+    font-weight: 800;
+    
 }
 
 h2 {
@@ -19,9 +25,7 @@ h2 {
 
 }
 
-p {
-    text-align: center;
-}
+
 
 a{
 
@@ -38,37 +42,74 @@ a:visited{
     color:blue
 }
 table{
-    border:0;
-    border-spacing: 0;
+  
     border-collapse: collapse;
+  
 }
 
-
-th{
-
+th {
+    
     background-color: black;
-    color:white
+    color: white;
 }
 
-tr:nth-child(even) {background: #CCC}
+table,th,td{
+    border: none;
+}
+
+td{
+    padding: 0.3rem;
+    
+}
+
+td:nth-child(odd){
+    font-weight: bold;;
+}
+
+tr:nth-child(even) {background: rgb(230, 230, 230);}
 tr:nth-child(odd) {background: #FFF}
 
-tr:hover {background: grey;}
+tr:hover {background: grey;
+    cursor: pointer;
 
-#test{
-    background-color: white;
-    border-style:dashed;
 }
+
+
 
 figure{
-    border-color: red;
-    border-width: 10;
+    
+    position:relative;
+    right: 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(54, 52, 52);
+    padding: 2rem;
+
+
 }
 
-#photo{
-    border-color:red;
-    border-radius: 50px;
-    border-width: 30px;
-    background-color: #554f4e;
+figure img {
+    position: relative;
+    width: 100%;
+}
+
+figcaption{
+    color:#FFF;
+    font-style: italic;
+    text-align: center;
+    padding-top: 2px;
+
+}
+
+#res{
+
     
+    border-style: dashed;
+    border-color: black;
+    width: 70%;
+    padding: 5px;
+    text-align: justify;
+    background-color: blanchedalmond;
+    color:blue;
+    margin: auto;
 }
